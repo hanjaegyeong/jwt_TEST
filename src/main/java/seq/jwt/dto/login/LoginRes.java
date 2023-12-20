@@ -1,4 +1,4 @@
-package seq.jwt.service;
+package seq.jwt.dto.login;
 
 import lombok.*;
 

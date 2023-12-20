@@ -1,11 +1,11 @@
-package seq.jwt.token;
+package seq.jwt.service.token;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-import seq.jwt.configuration.TokenProvider;
+import seq.jwt.config.TokenProvider;
 import seq.jwt.domain.User;
-import seq.jwt.service.UserService;
+import seq.jwt.service.user.UserService;
 
 import java.time.Duration;
 

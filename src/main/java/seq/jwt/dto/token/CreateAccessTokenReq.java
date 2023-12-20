@@ -1,4 +1,4 @@
-package seq.jwt.token;
+package seq.jwt.dto.token;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

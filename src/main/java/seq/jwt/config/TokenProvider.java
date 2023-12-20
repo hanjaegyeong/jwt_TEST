@@ -1,4 +1,4 @@
-package seq.jwt.configuration;
+package seq.jwt.config;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Header;

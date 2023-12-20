@@ -1,13 +1,15 @@
-package seq.jwt.service;
+package seq.jwt.service.user;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-import seq.jwt.configuration.TokenProvider;
+import seq.jwt.config.TokenProvider;
 import seq.jwt.domain.User;
+import seq.jwt.dto.login.LoginReq;
+import seq.jwt.dto.login.LoginRes;
 import seq.jwt.repository.UserRepository;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import seq.jwt.token.RefreshTokenService;
+import seq.jwt.service.token.RefreshTokenService;
 
 import java.time.Duration;
 

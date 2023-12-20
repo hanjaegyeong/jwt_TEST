@@ -1,4 +1,4 @@
-package seq.jwt.service;
+package seq.jwt.service.user;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;

@@ -1,8 +1,9 @@
-package seq.jwt.token;
+package seq.jwt.service.token;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import seq.jwt.domain.RefreshToken;
+import seq.jwt.repository.RefreshTokenRepository;
 
 @RequiredArgsConstructor
 @Service

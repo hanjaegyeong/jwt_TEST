@@ -1,4 +1,4 @@
-package seq.jwt.token;
+package seq.jwt.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import seq.jwt.domain.RefreshToken;

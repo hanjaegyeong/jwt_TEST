@@ -1,4 +1,4 @@
-package seq.jwt.configuration.swagger;
+package seq.jwt.config.swagger;
 
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;

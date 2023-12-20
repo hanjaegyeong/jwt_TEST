@@ -5,9 +5,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 import seq.jwt.domain.User;
-import seq.jwt.service.LoginReq;
-import seq.jwt.service.LoginRes;
-import seq.jwt.service.UserService;
+import seq.jwt.dto.login.LoginReq;
+import seq.jwt.dto.login.LoginRes;
+import seq.jwt.service.user.UserService;
 
 @RestController
 @RequestMapping("/api/users")
