@@ -14,6 +14,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
+// 스프링 시큐리티는 인터셉토 지원x 필터만 지원한다고 함
 @RequiredArgsConstructor
 @Configuration
 @EnableWebSecurity
